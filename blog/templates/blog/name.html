@@ -1,0 +1,40 @@
+{% extends 'blog/base.html' %}
+
+{%block content%}
+    
+    <header>
+    <!-- Page Content -->
+    <div class="header-content">
+
+        <div class="row">
+
+            <div class="col-lg-12">
+                <h1 class="page">작성자 이름과 연락처를 적어주세요</h1>
+            </div>
+
+            <form>
+              <div class="col-lg-offset-3 col-lg-6">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="홍길동">
+              </div>
+              <div class="col-lg-offset-3 col-lg-6">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="010-">
+              </div>
+
+            </form>
+
+        </div>
+
+        <p></p>
+
+            <center>
+                <div style="width:150px;">
+                        <a href="/" class="btn btn-primary btn-xl page-scroll" style="width:100%"> 제출 </a>
+                </div>
+            </center>
+
+        </div>
+        </header>
+
+{%endblock content%}
